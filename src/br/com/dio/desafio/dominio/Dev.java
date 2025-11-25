@@ -26,7 +26,7 @@ public class Dev {
             this.conteudosConcluidos.add(conteudo.get());
             this.conteudosInscritos.remove(conteudo.get());
         } else {
-            System.out.println("Você não está matriculado em nenhum conteudo.");
+            System.out.println("Você não está matriculado em nenhum conteúdo.");
         }
     }
 
