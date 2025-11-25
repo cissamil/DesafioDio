@@ -2,6 +2,7 @@ package DesafioDio.src.main.java.br.com.desafio.dio;
 
 import java.time.LocalDate;
 
+import DesafioDio.src.main.java.br.com.desafio.dio.dominio.Conteudo;
 import DesafioDio.src.main.java.br.com.desafio.dio.dominio.Curso;
 import DesafioDio.src.main.java.br.com.desafio.dio.dominio.Mentoria;
 
@@ -19,5 +20,10 @@ public class Main {
 
         System.out.println(curso1);
         System.out.println(mentoria1);
+
+        //polimorfismo
+        Conteudo conteudo = new Curso();
+        
+
     }
 }
