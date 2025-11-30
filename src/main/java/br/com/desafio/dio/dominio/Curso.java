@@ -17,6 +17,13 @@ public class Curso extends Conteudo {
     public double calcularXp(){
         return XP_PADRAO * 20d;
     }
+
+    @Override
+    public String toString() {
+        return "Curso{" +
+                "titulo='" + getTitulo() + '\'' +
+                ", descricao='" + getDescricao() + '\'' +
+                ", cargaHoraria=" + cargaHoraria +
+                '}';
+    }
 }
-
-

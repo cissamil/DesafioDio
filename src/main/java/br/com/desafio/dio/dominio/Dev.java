@@ -61,7 +61,7 @@ public class Dev {
         Optional<Conteudo> conteudo = this.conteudoInscritos.stream().findFirst();
         if(conteudo.isPresent()){
             this.conteudoConcluidos.add(conteudo.get());
-            this.conteudoConcluidos.remove(conteudo.get());
+            this.conteudoInscritos.remove(conteudo.get());
         } else{
             System.err.println("Voce nao esta matriculado em nenhum conteudo!!!!!!!");
         }
